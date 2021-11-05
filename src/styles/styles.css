@@ -1567,18 +1567,18 @@ footer ul li.last a {
 }
 
 .med-sites .container-wr .med-sites-content .med-sites-list {
-    margin: 30px 0;
+    margin: 0;
 }
-
-.med-sites .container-wr .med-sites-content .med-sites-list .med-sites-list-item {
-    display: inline-block;
+.med-sites .med-sites-content .med-sites-list .advantage-list-item {
     font-family: Manrope, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #353535;
-    margin: 0 0 10px 0;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .med-sites .container-wr .med-sites-content .med-sites-list ul#ul-action {
@@ -1735,6 +1735,14 @@ footer ul li.last a {
     .accordionWrapper {
         display: none;
     }
+
+    .med-sites .med-sites-content .med-sites-list .advantage-list-item {
+        margin-left: 0;
+    }
+
+    .med-sites .med-sites-content .med-sites-list ul#ul-actions {
+        padding-left: 25px;
+    }
 }
 
 @media screen and (min-width: 1399px) and (max-width: 1610px) {
@@ -1762,6 +1770,21 @@ footer ul li.last a {
         font-size: 16px;
         line-height: 120%;
         padding: 10px 0;
+    }
+
+    .med-sites .container-wr .med-sites-content .sub-title {
+        display: none;
+    }
+
+    .med-sites .med-sites-content .med-sites-list .advantage-list-item {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #353535;
+        display: inline-block;
+        margin-left: 20px;
     }
 
     .med-sites .container-wr .med-sites-image {
@@ -1849,6 +1872,13 @@ footer ul li.last a {
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+    .med-sites .container-wr .med-sites-content .med-sites-list .advantage-list-item {
+        font-size: 16px;
+        line-height: 160%;
+    }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .med-sites .container-wr-hide {
         display: none;
@@ -1879,9 +1909,8 @@ footer ul li.last a {
         display: none;
     }
 
-    /*.med-sites .container-wr .med-sites-content .med-sites-list ul li {*/
-    /*    font-size: 16px;*/
-    /*    line-height: 120%;*/
-    /*    padding-bottom: 8px;*/
-    /*}*/
+    .med-sites .container-wr .med-sites-content .med-sites-list .advantage-list-item {
+        font-size: 18px;
+        line-height: 120%;
+    }
 }
