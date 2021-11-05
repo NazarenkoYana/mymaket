@@ -85,24 +85,25 @@ function initSpiderByCategory(category, event) {
             loop: false,
             // mouseDrag: false,
             // autoHeight: true,
+            // edgePadding: 0,
             prevButton: '.prev-btn',
             nextButton: '.next-btn',
             // preventScrollOnTouch: 'force',
             responsive: {
                 320: {
                     controls: false,
-                    gutter: 10,
-                    items: 2.4,
+                    gutter: 20,
+                    items: 3,
                 },
                 768: {
                     gutter: 30,
                     items: 3.5,
-                    controls: false
+                    controls: false,
                 },
                 1000: {
                     gutter: 80,
                     controls: true,
-                    items: 4.8
+                    items: 4.8,
                 },
 
             },

@@ -646,7 +646,7 @@ footer ul li.last a {
 }
 
 .expertise .container-wr .expertise-content .container-desc ul {
-    padding: 0;
+    padding: 0 0 0 20px;
     margin: 0;
 }
 
@@ -712,7 +712,7 @@ footer ul li.last a {
     }
 
     .expertise .container-wr .expertise-content .container-desc ul li {
-        padding: 16px 30px 16px 0;
+        padding: 8px 30px 8px 0;
     }
 
     .expertise .container-wr .expertise-image .ul-hide {
@@ -720,7 +720,7 @@ footer ul li.last a {
     }
 
     .expertise .container-wr .expertise-image .ul-hide .pos-abs {
-        padding: 16px 0;
+        padding: 8px 0;
     }
 }
 
@@ -735,7 +735,7 @@ footer ul li.last a {
     }
 
     .expertise .container-wr .expertise-content {
-        padding: 10px 10px 10px 40px;
+        padding: 10px 10px 10px 25px;
     }
 
     .expertise .container-wr .expertise-image {
@@ -1096,6 +1096,12 @@ footer ul li.last a {
     background: transparent;
     border: none;
     padding: 10px 0 7px 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #353535;
 }
 
 .portfolio .mobile-portfolio-categories button.mobile-current-category:after {
@@ -1118,7 +1124,7 @@ footer ul li.last a {
 .portfolio .mobile-portfolio-categories ul.portfolio-arrow-list {
     display: none;
     position: absolute;
-    top: 30px;
+    top: 40px;
     z-index: 5;
     left: 20px;
     margin: 0 0 15px 0;
@@ -1350,7 +1356,6 @@ footer ul li.last a {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    /*padding: 100px 80px 100px 150px;*/
     padding: 100px 80px 100px 0;
 }
 
@@ -1402,6 +1407,12 @@ footer ul li.last a {
     font-size: 14px;
     line-height: 21px;
     color: #353535;
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1610px) {
+    .advantage .container-wr {
+        padding: 30px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
