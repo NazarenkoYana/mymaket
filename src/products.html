@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.2/viewer.min.css"
+          integrity="sha512-r+5gXtPk5M2lBWiI+/ITUncUNNO15gvjjVNVadv9qSd3/dsFZdpYuVu4O2yELRwSZcxlsPKOrMaC7Ug3+rbOXw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="header-image">
+                <a href="#"> <img src="assets/images/Proxima_logo.png" alt="Proxima" title="Proxima"></a>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li class="dropdown"><a href="#">продукты</a>
+                        <ul class="menu-hide">
+                            <li class="menu-hide-list"><a href="#">Медицинские сайты</a></li>
+                            <li class="menu-hide-list"><a href="#">Продуктовые сайты</a></li>
+                            <li class="menu-hide-list"><a href="#">WEB CLM</a></li>
+                            <li class="menu-hide-list"><a href="#">Лендинги</a></li>
+                            <li class="menu-hide-list"><a href="#">APP</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-border"><a href="index.html#about_us">о нас</a></li>
+                    <li class="li-border"><a href="#portfolio">портфолио</a></li>
+                    <li class="li-border last"><a href="#contacts">контакты</a></li>
+                </ul>
+            </div>
+            <div class="burger-menu">
+
+                <ul class="menu">
+                    <li><a class="menuItem" href="#">продукты</a></li>
+                    <li><a class="menuItem" href="index.html#about_us">о нас</a></li>
+                    <li><a class="menuItem" href="#portfolio">портфолио</a></li>
+                    <li><a class="menuItem" href="#contacts">контакты</a></li>
+                </ul>
+                <button class="hamburger" onclick="myFunction(this)">
+                    <span class="bars">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                        <span class="bar3"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="med-sites" id="products">
+
+    <div class="container">
+
+        <div class="container-wr-hide">
+            <div class="med-sites-content-heading">
+                <div class="med-sites-content-hide">
+                    <span>Продукты</span>
+                    <h1>Медицинские сайты</h1>
+                    <div class="med-sites-desc">
+                        Создаем специализированные сайты/платформы для врачей <br>
+                        с доступом к рецепту по верификации, что позволяет <br>
+                        исключить контакт с информацией не специалиста <br>
+                        здравоохранения, а также точно идентифицировать каждого <br>
+                        пользователя ресурса.
+                    </div>
+                </div>
+            </div>
+            <div class="med-sites-container-img">
+                <img src="assets/images/med-sites.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="container-wr">
+            <div class="med-sites-content">
+                <span class="sub-title">Продукты</span>
+                <h1>Медицинские сайты</h1>
+                <div class="med-sites-desc">
+                    Создаем специализированные сайты/платформы для врачей <br>
+                    с доступом к рецепту по верификации, что позволяет <br>
+                    исключить контакт с информацией не специалиста <br>
+                    здравоохранения, а также точно идентифицировать каждого <br>
+                    пользователя ресурса.
+                </div>
+                <div class="med-sites-list">
+                    <span class="advantage-list-item">Структура ресурса может содержать следующие розделы:</span>
+                    <ul id="ul-actions">
+                        <li>Новости и пресс-релизы</li>
+                        <li>Научные публикации (статьи, исследования и т.п.)</li>
+                        <li>Видео-библиотека (лекции, доклады, вебинары,<br>
+                            CLM презентации, сортировка по типу)
+                        </li>
+                        <li>Раздел с информацией о препаратах</li>
+                        <li>Полезные инструменты<br>
+                            (медицинские калькуляторы, функциональные тесты,<br>
+                            лабораторно-диагностические нормы и т.п.)
+                        </li>
+                        <li>Календарь мероприятий</li>
+                        <li>Раздел для проведения онлайн вебинаров/<br>
+                            конференций
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="med-sites-image">
+                <div class="li-content-wrapper">
+                    <div class="li-content">
+                        <picture>
+                            <source srcset="assets/images/li1.jpg">
+                            <img src="assets/images/li1.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="li-content">
+                        <picture>
+                            <source srcset="assets/images/li2.jpg">
+                            <img src="assets/images/li2.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="li-content">
+                        <picture>
+                            <source srcset="assets/images/li4.jpg">
+                            <img src="assets/images/li4.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="li-content">
+                        <picture>
+                            <source srcset="assets/images/li5.jpg">
+                            <img src="assets/images/li5.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="li-content">
+                        <picture>
+                            <source srcset="assets/images/li6.jpg">
+                            <img src="assets/images/li6.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="li-content">
+                        <picture>
+                            <source srcset="assets/images/li3.jpg">
+                            <img src="assets/images/li3.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="li-content">
+                        <picture>
+                            <source srcset="assets/images/li7.jpg">
+                            <img src="assets/images/li7.jpg" alt="">
+                        </picture>
+                    </div>
+
+
+                    <div class="li-content visible">
+                        <img src="assets/images/med-sites.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordionWrapper">
+            <span class="accordionWrapper-list-item">Структура ресурса может содержать следующие розделы:</span>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading"><img src="assets/images/Vector.svg" alt="" title="">
+                    <p>Новости и пресс-релизы</p>
+                </div>
+                <div class="accordionItemContent">
+                    <picture>
+                        <source srcset="assets/images/liSmall-1.jpg" media="(max-width: 500px)">
+                        <img src="assets/images/li1.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading">
+                    <img src="assets/images/Vector.svg" alt="" title="">
+                    <p>Научные публикации (статьи, исследования и т.п.)</p>
+                </div>
+                <div class="accordionItemContent">
+                    <picture>
+                        <source srcset="assets/images/liSmall-2.jpg" media="(max-width: 500px)">
+                        <img src="assets/images/li2.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading">
+                    <img src="assets/images/Vector.svg" alt="" title="">
+                    <p>Видео-библиотека (лекции, доклады, вебинары, CLM презентации, сортировка по типу)</p>
+                </div>
+                <div class="accordionItemContent">
+                    <picture>
+                        <source srcset="assets/images/liSmall-4.jpg" media="(max-width: 500px)">
+                        <img src="assets/images/li4.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading">
+                    <img src="assets/images/Vector.svg" alt="" title="">
+                    <p>Раздел с информацией о препаратах</p>
+                </div>
+                <div class="accordionItemContent">
+                    <picture>
+                        <source srcset="assets/images/liSmall-5.jpg" media="(max-width: 500px)">
+                        <img src="assets/images/li5.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading"><img src="assets/images/Vector.svg" alt="" title="">
+                    <p>Полезные инструменты, (медицинские калькуляторы,функциональные тесты,
+                        лабораторно-диагностические, нормы и т.п.)</p>
+                </div>
+                <div class="accordionItemContent">
+                    <picture>
+                        <source srcset="assets/images/liSmall-6.jpg" media="(max-width: 500px)">
+                        <img src="assets/images/li6.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading">
+                    <img src="assets/images/Vector.svg" alt="" title="">
+                    <p>Календарь мероприятий</p>
+                </div>
+                <div class="accordionItemContent">
+                    <picture>
+                        <source srcset="assets/images/liSmall-3.jpg" media="(max-width: 500px)">
+                        <img src="assets/images/li3.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading">
+                    <img src="assets/images/Vector.svg" alt="" title="">
+                    <p>Раздел для проведения онлайн, вебинаров/конференций</p>
+                </div>
+                <div class="accordionItemContent">
+                    <picture>
+                        <source srcset="assets/images/liSmall-7.jpg" media="(max-width: 500px)">
+                        <img src="assets/images/li7.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="portfolio-content">
+            <h2 class="spec-title" data-heading="Портфолио">примеры проектов</h2>
+        </div>
+    </div>
+    <div class="mobile-portfolio-categories">
+        <button class="mobile-current-category">Все примеры</button>
+        <ul class="portfolio-arrow-list">
+            <li onclick="initSpiderByCategory('med-sites', event)">Медицинские
+                сайты
+            </li>
+            <li onclick="initSpiderByCategory('prod-sites', event)">Продуктовые
+                сайты
+            </li>
+            <li onclick="initSpiderByCategory('web-clm', event)">WEB CLM</li>
+            <li onclick="initSpiderByCategory('landings', event)">Лендинги</li>
+            <li onclick="initSpiderByCategory('app', event)">APP</li>
+            <li class="all active" onclick="initSpiderByCategory(null, event)">Все
+                примеры
+            </li>
+        </ul>
+    </div>
+    <div class="portfolio-arrow">
+        <button class="prev-btn"><img src="assets/images/cil_arrow-right.png" alt=""></button>
+        <ul class="portfolio-arrow-list">
+            <li onclick="initSpiderByCategory('med-sites', event)">Медицинские сайты</li>
+            <li onclick="initSpiderByCategory('prod-sites', event)">Продуктовые сайты</li>
+            <li onclick="initSpiderByCategory('web-clm', event)">WEB CLM</li>
+            <li onclick="initSpiderByCategory('landings', event)">Лендинги</li>
+            <li onclick="initSpiderByCategory('app', event)">APP</li>
+            <li onclick="initSpiderByCategory(null, event)" class="all active">Все примеры</li>
+        </ul>
+        <button class="next-btn"><img src="assets/images/cil_arrow-right%20(1).png" alt=""></button>
+    </div>
+    <div class="portfolio-slider-wrapper">
+        <div class="my-slider"></div>
+    </div>
+</section>
+
+<footer id="contacts">
+    <div class="container">
+        <div class="header-content">
+            <div class="header-image">
+                <a href="#"><img src="assets/images/Proxima_logo.png" alt="Proxima" title="Proxima"></a>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li><a href="products.html">продукты</a></li>
+                    <li><a href="#about_us">о нас</a></li>
+                    <li><a href="#portfolio">портфолио</a></li>
+                    <li class="last"><a href="#contacts">контакты</a></li>
+                </ul>
+            </div>
+            <!--only 320-768 -->
+            <div class="header-menu-icon">
+                <a class="footer-icon" href="#"><img src="assets/images/footer-icon-1.png" alt="" title=""/></a>
+
+                <a class="footer-icon" href="#"><img src="assets/images/footer-icon-2.png" alt="" title=""/></a>
+
+                <a class="footer-icon" href="#"><img src="assets/images/footer-icon-3.png" alt="" title=""/></a>
+
+                <a class="footer-icon" href="#"><img src="assets/images/footer-icon-4.png" alt="" title=""/></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.2/viewer.min.js"
+        integrity="sha512-lzNiA4Ry7CjL8ewMGFZ5XD4wIVaUhvV3Ct9BeFmWmyq6MFc42AdOCUiuUtQgkrVVELHA1kT7xfSLoihwssusQw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/actions-li.js"></script>
+<script src="js/portfolio-slider.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/accordion.js"></script>
+<script src="js/mobile-portfolio-categories.js"></script>
+</body>
+</html>

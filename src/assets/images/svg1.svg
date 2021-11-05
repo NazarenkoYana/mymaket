@@ -1,0 +1,18 @@
+<svg width="62" height="69" viewBox="0 0 62 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g class="anim">
+        <rect x="28" y="25" width="6" height="2" rx="1" fill="#4A9FF5"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9877 31.35L25.3 24.7H36.7L32.0128 31.35H31.0003H29.9877ZM36.7 24.7L36.7 24.7H25.3L25.3 24.7H24C17.3726 24.7 12 30.0726 12 36.7V38H50V36.7C50 30.0725 44.6274 24.7 38 24.7H36.7ZM38.3731 28.6117H40.7481V30.9587H43.125V33.3058H40.7481V35.6529H38.3731V33.3058H36V30.9587H38.3731V28.6117Z" fill="#4A9FF5"/>
+        <circle cx="31" cy="10" r="10" fill="#4A9FF5"/>
+    </g>
+    <g class="anim-none">
+        <path d="M16 19H5C2.79086 19 1 20.7909 1 23V57C1 59.2091 2.79086 61 5 61H57C59.2091 61 61 59.2091 61 57V23C61 20.7909 59.2091 19 57 19H53.5H46" stroke="#033FFF" stroke-width="2" stroke-linecap="round"/>
+        <path d="M11 23H10C7.79086 23 6 24.7909 6 27V48C6 50.2091 7.79086 52 10 52H52C54.2091 52 56 50.2091 56 48V27C56 24.7909 54.2091 23 52 23H51" stroke="#033FFF" stroke-width="2" stroke-linecap="round"/>
+        <rect x="25" y="55" width="12" height="2" rx="1" fill="#033FFF"/>
+        <mask id="path-7-inside-1_244:3796" fill="white">
+            <path d="M14 67C14 64.7909 15.7909 63 18 63H44C46.2091 63 48 64.7909 48 67V68C48 68.5523 47.5523 69 47 69H15C14.4477 69 14 68.5523 14 68V67Z"/>
+        </mask>
+        <path d="M14 67C14 64.7909 15.7909 63 18 63H44C46.2091 63 48 64.7909 48 67V68C48 68.5523 47.5523 69 47 69H15C14.4477 69 14 68.5523 14 68V67Z" stroke="#033FFF" stroke-width="4" mask="url(#path-7-inside-1_244:3796)"/>
+        <path d="M21.5 61L20 64" stroke="#033FFF" stroke-width="2"/>
+        <path d="M36 61L37.5 64" stroke="#033FFF" stroke-width="2"/>
+    </g>
+</svg>
