@@ -1637,7 +1637,6 @@ footer ul li.last a {
 
 .accordionItemHeading p {
     display: inline-block;
-    /*margin-left: 8px;*/
     margin: 0 0 0 8px;
     font-family: Manrope, sans-serif;
     font-style: normal;
@@ -1675,6 +1674,10 @@ footer ul li.last a {
 
 .open .accordionItemHeading {
     background-color: white;
+}
+
+.open .accordionItemHeading p {
+    color: #353535;
 }
 
 .open .accordionItemHeading img {
