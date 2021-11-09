@@ -370,7 +370,7 @@ footer ul li.last a {
     }
 
     footer .header-content {
-        padding: 15px 25px;
+        padding: 0 25px;
         display: block;
     }
 
@@ -387,6 +387,7 @@ footer ul li.last a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding-bottom: 15px;
     }
 
 
@@ -670,6 +671,8 @@ footer ul li.last a {
 
     .expertise .container-wr .expertise-content .container-desc ul li {
         padding: 8px 30px 8px 0;
+        font-size: 16px;
+        line-height: 160%;
     }
 
     .expertise .container-wr .expertise-image .ul-hide {
@@ -678,6 +681,8 @@ footer ul li.last a {
 
     .expertise .container-wr .expertise-image .ul-hide .pos-abs {
         padding: 8px 0;
+        font-size: 16px;
+        line-height: 160%;
     }
 }
 
@@ -692,7 +697,7 @@ footer ul li.last a {
     }
 
     .expertise .container-wr .expertise-content {
-        padding: 10px 10px 10px 25px;
+        padding: 10px 25px 10px 25px;
     }
 
     .expertise .container-wr .expertise-image {
@@ -773,7 +778,6 @@ footer ul li.last a {
 .products .cards .card .card-icon svg {
     width: 60px;
     height: 70px;
-    margin: 25px 0 0 0;
     overflow: inherit;
 }
 
@@ -802,7 +806,7 @@ footer ul li.last a {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 160%;
     color: #000000;
     margin: 30px 0 0 0;
 }
@@ -879,10 +883,12 @@ footer ul li.last a {
 
     .products .cards .card .card-desc {
         font-size: 16px;
-        line-height: 120%;
         margin: 24px 0 0 0;
     }
 
+    /*.products .cards .card .card-icon svg {*/
+    /*    margin: 0;*/
+    /*}*/
     .products .cards .card:nth-child(4n-2), .products .cards .card:nth-child(4n-1) {
         background-color: #fff;
     }
@@ -984,13 +990,8 @@ footer ul li.last a {
 .portfolio {
     background-color: #F8F8F8;
     padding-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
-
-/*.portfolio span.sub-title {*/
-/*    display: inline-block;*/
-/*    margin-bottom: 15px;*/
-/*}*/
 
 .portfolio .portfolio-content h2 {
     margin-bottom: 100px;
@@ -1134,6 +1135,7 @@ footer ul li.last a {
 @media screen and (min-width: 768px) and (max-width: 1400px) {
     .portfolio {
         padding-bottom: 50px;
+        padding-top: 80px;
     }
 
     .portfolio .portfolio-content {
@@ -1472,6 +1474,7 @@ footer ul li.last a {
     .advantage .container-wr .advantage-content .advantage-desc {
         font-size: 18px;
         line-height: 120%;
+        font-weight: bold;
     }
 
     .advantage .container-wr .advantage-content .advantage-list {
@@ -1482,6 +1485,7 @@ footer ul li.last a {
     .advantage .container-wr .advantage-content .advantage-list .advantage-list-item {
         font-size: 18px;
         line-height: 120%;
+        font-weight: bold;
     }
 
     .advantage .container-wr .advantage-content .advantage-list ul li {
@@ -1537,11 +1541,6 @@ footer ul li.last a {
     display: inline-block;
     margin-left: 20px;
     margin-top: 30px;
-}
-
-.med-sites .container-wr .med-sites-content .med-sites-list ul#ul-action {
-    padding: 0;
-    margin: 0;
 }
 
 .med-sites .container-wr .med-sites-content .med-sites-list ul li {
@@ -1857,8 +1856,8 @@ footer ul li.last a {
     }
 
     .med-sites .container-wr .med-sites-content .med-sites-desc {
-        font-size: 16px;
-        line-height: 160%;
+        font-size: 14px;
+        line-height: 120%;
         color: #656565;
         font-weight: normal;
     }

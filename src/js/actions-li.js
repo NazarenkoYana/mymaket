@@ -5,6 +5,7 @@ actionsLi.forEach(function (li, index) {
     li.addEventListener('mouseover', function (event) {
 
         var currentVisibleLiContent = document.querySelector('.li-content.visible');
+
         if (currentVisibleLiContent) {
             currentVisibleLiContent.classList.remove('visible');
         }
