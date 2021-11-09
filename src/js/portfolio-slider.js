@@ -3,31 +3,36 @@ var slides = [
         img: 'assets/images/slider1.jpg',
         largeSrc: 'https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg',
         alt: '',
-        category: ['med-sites', 'landings', 'web-clm', 'app']
+        category: ['med-sites', 'landings', 'web-clm', 'app'],
+        href: 'https://proximaresearch.com/uk/clm/#/slide-1',
     },
     {
         img: 'assets/images/slider2.jpg',
         largeSrc: 'https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg',
         alt: '',
-        category: ['prod-sites', 'landings', 'web-clm']
+        category: ['prod-sites', 'landings', 'web-clm'],
+        href: 'https://www.google.com.ua/?hl=ru',
     },
     {
         img: 'assets/images/slider3.jpg',
         largeSrc: 'https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg',
         alt: '',
-        category: ['web-clm', 'web-clm', 'prod-sites']
+        category: ['web-clm', 'prod-sites', 'app'],
+        href: 'https://www.google.com.ua/?hl=ru',
     },
     {
         img: 'assets/images/slider4.jpg',
         largeSrc: 'https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg',
         alt: '',
-        category: ['med-sites', 'landings', 'web-clm']
+        category: ['med-sites', 'landings', 'web-clm'],
+        href: 'https://www.google.com.ua/?hl=ru',
     },
     {
         img: 'assets/images/slider5.jpg',
         largeSrc: 'https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg',
         alt: '',
-        category: ['app', 'landings', 'prod-sites']
+        category: ['app', 'landings', 'prod-sites'],
+        href: 'https://www.google.com.ua/?hl=ru',
     },
 ];
 var sliderContainerSelector = '.my-slider';
@@ -62,17 +67,15 @@ function initSpiderByCategory(category, event) {
 
         var sliderElement = document.querySelector(sliderContainerSelector);
 
-
         var newHtmlContent = '';
 
         for (var img of slides) {
             if (!category || img.category.indexOf(category) !== -1) {
-                newHtmlContent += `<img src="${img.img}" alt="${img.alt}" data-large="${img.largeSrc}">`;
+                newHtmlContent += `<img src="${img.img}" alt="${img.alt}" data-large="${img.largeSrc}" data-href="${img.href}" ">`;
             }
         }
 
         sliderElement.innerHTML = newHtmlContent;
-
 
         sliderIns = tns({
             container: sliderContainerSelector,
@@ -119,11 +122,19 @@ function initSpiderByCategory(category, event) {
             toolbar: false,
             zoomable: false,
             title: false,
-            url: 'data-large'
+            movable: false,
+            url: 'data-large',
+            inheritedAttributes: ['data-href', 'alt'],
+            viewed: function (event){
+                var image = event.detail.image;
+                // console.log(image);
+                event.detail.image.addEventListener('click', function (){
+                    window.open(image.getAttribute('data-href'), '_blank');
+                });
+            }
         });
 
     }, 100);
 }
-
 
 initSpiderByCategory();
