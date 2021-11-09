@@ -516,7 +516,7 @@ footer ul li.last a {
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .slogan .container-wr .slogan-content {
         min-width: 272px;
-        margin: 0 30px 0 30px;
+        margin: 0 25px;
         z-index: 7;
     }
 
@@ -620,7 +620,6 @@ footer ul li.last a {
 
 @media screen and (min-width: 1920px) {
     .expertise:before {
-        /*width: 230px;*/
         display: none;
     }
 
@@ -782,7 +781,7 @@ footer ul li.last a {
 }
 
 .products .cards .card:hover .card-icon svg g.anim {
-    transition: .3s ease;
+    transition: .3s ease transform;
     transform: scale(1.5, 1.5);
     transform-origin: 50% 0;
 }
@@ -906,7 +905,7 @@ footer ul li.last a {
 }
 
 .products-mobile .card-heading-mobile {
-    padding: 0 30px;
+    padding: 0 25px;
 }
 
 .products-mobile .card-heading-mobile .sub-title-mobile {
@@ -931,13 +930,11 @@ footer ul li.last a {
 }
 
 .products-mobile .products-slider .products-slider-item .card-m {
-    /*border: 1px solid black;*/
-    /*position: relative;*/
     display: block;
     /*width: 240px;*/
     height: 240px;
     box-sizing: border-box;
-    padding: 16px 16px 16px 34px;
+    padding: 15px 25px;
     background-color: white;
     transition: .2s ease transform;
     text-decoration: none;
@@ -960,8 +957,7 @@ footer ul li.last a {
     font-weight: normal;
     color: #000000;
     font-size: 14px;
-    line-height: 120%;
-    margin-top: 10px;
+    line-height: 160%;
 }
 
 .products-mobile .products-slider .products-slider-item .card-m .card-icon-m {
@@ -1047,7 +1043,7 @@ footer ul li.last a {
 .portfolio .mobile-portfolio-categories {
     position: relative;
     margin-bottom: 15px;
-    padding: 0 30px;
+    padding: 0 25px;
 }
 
 .portfolio .mobile-portfolio-categories button.mobile-current-category {
@@ -1173,7 +1169,7 @@ footer ul li.last a {
     }
 
     .portfolio .portfolio-content {
-        padding: 0 30px;
+        padding: 0 25px;
     }
 
     .portfolio .portfolio-content span.sub-title {
@@ -1598,6 +1594,10 @@ footer ul li.last a {
     transform: translate(0, 0);
 }
 
+.med-sites .container-wr .med-sites-content .med-sites-list ul li.visibleLiActions {
+    color: #000000;
+}
+
 /*ACCORDION*/
 
 .accordionWrapper {
@@ -1684,7 +1684,6 @@ footer ul li.last a {
     transform: rotate(90deg);
     transition: 0.3s ease transform;
 }
-
 
 @media screen and (min-width: 1401px) {
     .med-sites .container-wr-hide {

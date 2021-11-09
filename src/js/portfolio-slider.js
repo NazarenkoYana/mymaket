@@ -1,7 +1,7 @@
 var slides = [
     {
         img: 'assets/images/slider1.jpg',
-        largeSrc: 'https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg',
+        largeSrc: 'assets/images/largeSrc1.png',
         alt: '',
         category: ['med-sites', 'landings', 'web-clm', 'app'],
         href: 'https://proximaresearch.com/uk/clm/#/slide-1',
